@@ -24,6 +24,7 @@ public class TestDemo1
 		driver.manage().window().maximize();
 		driver.get("http://www.google.com");
 		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
 		driver.close();
 	}
 }
